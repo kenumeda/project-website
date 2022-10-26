@@ -1,0 +1,156 @@
+
+
+body{
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+/* 
+nav bar
+ */
+
+.header-logo{
+    display: flex;
+    color: #E5E7EB;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.list-row{
+    display: flex;
+}
+
+.list-item{
+    display: block;
+    margin: 5px;
+}
+
+
+
+/* 
+hero section
+ */
+
+.hero{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+.column-right{
+    align-self: center;
+}
+
+
+
+.header{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: extra bold;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button{
+    background-color: #3882F6;
+    padding:5px 20px;
+    color:#f9faf8;
+    border-radius: 10px;
+}
+
+/* 
+main content
+ */
+
+.main{
+    background-color: #f9faf8;
+    padding:80px;
+}
+
+.info{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #8492a5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    margin:10px;    
+}
+
+.box{
+    text-align: center;
+    color:rgb(24, 15, 15);
+}
+
+/* 
+quote
+*/
+
+.quote {
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+    font-style: italic;
+}
+
+.quote >b {
+    font-style: normal;
+
+}
+
+/* 
+container 
+*/
+/* .signup{} */
+.container{
+    background-color:#fff;
+    /* justify-content: center; */
+    /* display: flex; */
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.row-s{
+    background-color: #3882F6;
+    color:#203153;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.column{
+    margin:30px;
+    /* display: flex; */
+}
+
+
+.button-submit{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 5px 15px;
+    border-color: white;
+    font-size:15px;   
+}
+
+
+/* 
+footer
+ */
+
+.footer{
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+}
